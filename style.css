@@ -276,7 +276,7 @@ section {
 }
 
 .about-pic {
-  border-radius: 0.5rem; /* or 0 for sharp edges */
+  border-radius: 0; /* Make the image square */
   width: 100%;
   height: auto;
   object-fit: cover;
