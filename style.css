@@ -276,9 +276,12 @@ section {
 }
 
 .about-pic {
+  border-radius: 0.5rem; /* or 0 for sharp edges */
   width: 100%;
+  height: auto;
+  object-fit: cover;
   max-width: 300px;
-  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .details-container {
